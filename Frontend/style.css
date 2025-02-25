@@ -1,0 +1,86 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff85c0, #ff1493);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: rgb(254, 97, 170);
+    width: 350px;
+    height: 500px;
+    padding: 60px 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 26px;
+}
+
+.textBoxdiv {
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.textBoxdiv input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+input[type="date"] {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.calculateBtn {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, #ff69b4, #ff007f);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(255, 105, 180, 0.4);
+}
+
+.calculateBtn:hover {
+    background-position: right;
+    font-size: 18px;
+    transform: scale(1.05);
+}
+
+.results {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
